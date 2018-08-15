@@ -1,8 +1,9 @@
-package com.appatoll.tapsomeonetested;
+package com.appatoll.tapsomeonetested.start;
 
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+
+import com.appatoll.tapsomeonetested.SingleFragmentActivity;
+import com.appatoll.tapsomeonetested.start.StartFragment;
 
 public class StartActivity extends SingleFragmentActivity {
 

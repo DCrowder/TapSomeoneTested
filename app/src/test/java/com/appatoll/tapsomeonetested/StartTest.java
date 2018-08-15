@@ -1,28 +1,38 @@
 package com.appatoll.tapsomeonetested;
 
-import android.app.Activity;
+import com.appatoll.tapsomeonetested.start.StartContract;
+import com.appatoll.tapsomeonetested.start.StartPresenter;
 
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
+import static org.mockito.Mockito.*;
 
 public class StartTest {
-    private StartActivity startActivity;
-    private StartFragment startFragment;
+
+    @Mock
+    private StartContract.View mStartView;
+
+    private StartPresenter mStartPresenter;
 
     @Before
-    public void activity_createsFragment(){
-        startActivity = new StartActivity();
-        startFragment = (StartFragment) startActivity.createFragment();
+    public void setupStartPresenter(){
+        MockitoAnnotations.initMocks(this);
+
+        mStartPresenter = new StartPresenter(mStartView);
+
+        when(mStartView.isActive()).thenReturn(true);
+
     }
 
     @Test
-    public void activity_hasFragment(){
-        assertNotEquals(startFragment, null);
-    }
+    public void createPresenter_setsPresenterToView(){
+        // New reference to class under test
+        mStartPresenter = new StartPresenter(mStartView);
 
-    @Test
-    public void activity_Exists(){
-        assertNotEquals(startActivity,null);
+        //Set presenter to view
+        verify(mStartView).setPresenter(mStartPresenter);
     }
 }

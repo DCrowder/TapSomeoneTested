@@ -35,4 +35,12 @@ public class StartTest {
         //Set presenter to view
         verify(mStartView).setPresenter(mStartPresenter);
     }
+
+    @Test
+    public void startGame_launchesGame(){
+        mStartPresenter.startGame();
+
+        verify(mStartView).showSetup();
+    }
+
 }

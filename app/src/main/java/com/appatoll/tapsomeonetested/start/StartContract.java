@@ -8,9 +8,10 @@ import java.util.Locale;
 public interface StartContract {
 
     interface View extends BaseView<Presenter>{
+
         void showTutorial();
 
-        void showGame();
+        void showSetup();
 
         void showLanguage(Locale locale);
 

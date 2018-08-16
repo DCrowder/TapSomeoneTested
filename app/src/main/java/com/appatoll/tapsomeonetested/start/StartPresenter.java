@@ -20,7 +20,7 @@ public class StartPresenter implements StartContract.Presenter {
 
     @Override
     public void startGame() {
-
+        mStartView.showSetup();
     }
 
     @Override

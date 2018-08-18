@@ -1,5 +1,6 @@
-package com.appatoll.tapsomeonetested;
+package com.appatoll.tapsomeone;
 
+import android.support.test.espresso.matcher.ViewMatchers;
 import android.support.test.runner.AndroidJUnit4;
 
 import org.junit.Rule;
@@ -8,6 +9,7 @@ import org.junit.runner.RunWith;
 
 import android.support.test.rule.ActivityTestRule;
 
+import com.appatoll.tapsomeonetested.R;
 import com.appatoll.tapsomeonetested.start.StartActivity;
 
 import static android.support.test.espresso.Espresso.*;
@@ -30,7 +32,7 @@ public class StartAndroidTest {
 
     @Test
     public void fragmentInflatesView(){
-        onView(withId(R.id.activity_start))
+        onView(ViewMatchers.withId(R.id.activity_start))
                 .check(matches(isDisplayed()));
     }
 

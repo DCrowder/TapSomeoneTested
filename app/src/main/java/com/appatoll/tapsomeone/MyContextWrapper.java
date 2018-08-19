@@ -1,4 +1,4 @@
-package com.appatoll.tapsomeonetested;
+package com.appatoll.tapsomeone;
 
 import android.annotation.TargetApi;
 import android.content.Context;

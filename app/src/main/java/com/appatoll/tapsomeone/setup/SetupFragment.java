@@ -1,4 +1,4 @@
-package com.appatoll.tapsomeonetested.setup;
+package com.appatoll.tapsomeone.setup;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,8 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.appatoll.tapsomeonetested.R;
-import com.appatoll.tapsomeonetested.start.StartContract;
+import com.appatoll.tapsomeone.R;
+import com.appatoll.tapsomeone.start.StartContract;
 
 public class SetupFragment extends Fragment implements SetupContract.View {
 

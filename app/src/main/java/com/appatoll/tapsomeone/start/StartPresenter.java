@@ -1,4 +1,4 @@
-package com.appatoll.tapsomeonetested.start;
+package com.appatoll.tapsomeone.start;
 
 import android.support.annotation.NonNull;
 

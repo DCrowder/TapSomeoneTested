@@ -1,8 +1,8 @@
-package com.appatoll.tapsomeonetested.setup;
+package com.appatoll.tapsomeone.setup;
 
 import android.support.v4.app.Fragment;
 
-import com.appatoll.tapsomeonetested.SingleFragmentActivity;
+import com.appatoll.tapsomeone.SingleFragmentActivity;
 
 public class SetupActivity extends SingleFragmentActivity {
     @Override

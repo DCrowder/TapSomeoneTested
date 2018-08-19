@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 
 import android.support.test.rule.ActivityTestRule;
 
-import com.appatoll.tapsomeonetested.R;
-import com.appatoll.tapsomeonetested.start.StartActivity;
+import com.appatoll.tapsomeone.R;
+import com.appatoll.tapsomeone.start.StartActivity;
 
 import static android.support.test.espresso.Espresso.*;
 import static android.support.test.espresso.action.ViewActions.click;

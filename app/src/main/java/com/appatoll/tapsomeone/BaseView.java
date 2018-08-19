@@ -1,4 +1,4 @@
-package com.appatoll.tapsomeonetested;
+package com.appatoll.tapsomeone;
 
 public interface BaseView<T> {
 

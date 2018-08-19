@@ -1,7 +1,7 @@
 package com.appatoll.tapsomeone;
 
-import com.appatoll.tapsomeonetested.start.StartContract;
-import com.appatoll.tapsomeonetested.start.StartPresenter;
+import com.appatoll.tapsomeone.start.StartContract;
+import com.appatoll.tapsomeone.start.StartPresenter;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -1,8 +1,8 @@
-package com.appatoll.tapsomeonetested.setup;
+package com.appatoll.tapsomeone.setup;
 
-import com.appatoll.tapsomeonetested.BasePresenter;
-import com.appatoll.tapsomeonetested.BaseView;
-import com.appatoll.tapsomeonetested.start.StartContract;
+import com.appatoll.tapsomeone.BasePresenter;
+import com.appatoll.tapsomeone.BaseView;
+import com.appatoll.tapsomeone.start.StartContract;
 
 import java.util.Locale;
 

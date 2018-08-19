@@ -1,7 +1,7 @@
-package com.appatoll.tapsomeonetested.start;
+package com.appatoll.tapsomeone.start;
 
-import com.appatoll.tapsomeonetested.BasePresenter;
-import com.appatoll.tapsomeonetested.BaseView;
+import com.appatoll.tapsomeone.BasePresenter;
+import com.appatoll.tapsomeone.BaseView;
 
 import java.util.Locale;
 
